@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.usc.cs_server.csci571.userdetails">
+    <item
+        android:id="@+id/fav_settings"
+        android:orderInCategory="100"
+        android:title="@string/fav_add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share_settings"
+        android:orderInCategory="100"
+        android:title="@string/fb_share"
+        app:showAsAction="never" />
+</menu>
